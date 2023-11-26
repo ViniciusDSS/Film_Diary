@@ -65,6 +65,7 @@
         android:layout_height="66dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/background_button"
+        android:onClick="validarCampos"
         android:text="Access"
         android:textSize="20sp"
         app:iconTint="#ffffff" />

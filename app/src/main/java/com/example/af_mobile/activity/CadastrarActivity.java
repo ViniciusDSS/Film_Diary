@@ -38,6 +38,7 @@ public class CadastrarActivity extends AppCompatActivity {
     campoEmail = findViewById(R.id.editTextEmailCadastrar);
     campoSenha = findViewById(R.id.editTextSenhaCadastrar);
     btCadastrar = findViewById(R.id.btRegistrar);
+    usuario = new Usuario();
 
         btCadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
