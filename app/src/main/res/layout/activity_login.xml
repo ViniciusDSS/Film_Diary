@@ -10,7 +10,7 @@
     android:paddingLeft="30dp"
     android:paddingTop="50dp"
     android:paddingRight="30dp"
-    tools:context=".activity.LoginActivity">
+    tools:context=".activity.LoginMainActivity">
 
     <TextView
         android:id="@+id/text"

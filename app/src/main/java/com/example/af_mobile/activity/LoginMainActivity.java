@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseAuthInvalidUserException;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginMainActivity extends AppCompatActivity {
 
     Usuario usuario;
     EditText campoEmail, campoSenha;
@@ -91,7 +91,7 @@ public class LoginActivity extends AppCompatActivity {
                         exception = "Error ao efetuar login."+ e.getMessage();
                         e.printStackTrace();
                     }
-                    Toast.makeText(LoginActivity.this, exception, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginMainActivity.this, exception, Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -99,7 +99,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void OpenHome(){
-        Intent h = new Intent(LoginActivity.this,HomeActivity.class);
+        Intent h = new Intent(LoginMainActivity.this, VerSeriesActivity.class);
         startActivity(h);
     }
 
