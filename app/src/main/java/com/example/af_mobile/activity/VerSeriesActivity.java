@@ -23,6 +23,6 @@ public class VerSeriesActivity extends AppCompatActivity {
     private void init(){
         campoTitulo = findViewById(R.id.textTitulo);
         campoAssistir = findViewById(R.id.textEpisodio);
-        btEntrar = findViewById(R.id.btEntrar);
+
     }
 }
