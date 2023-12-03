@@ -1,3 +1,7 @@
+/*
+https://www.youtube.com/watch?v=Qg7N1U0gwpw
+ */
+
 package com.example.af_mobile.activity;
 
 import android.os.Bundle;
