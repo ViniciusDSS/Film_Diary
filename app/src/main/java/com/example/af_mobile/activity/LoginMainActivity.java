@@ -99,7 +99,7 @@ public class LoginMainActivity extends AppCompatActivity {
     }
 
     public void OpenHome(){
-        Intent h = new Intent(LoginMainActivity.this, VerSeriesActivity.class);
+        Intent h = new Intent(LoginMainActivity.this, MainActivity.class);
         startActivity(h);
     }
 

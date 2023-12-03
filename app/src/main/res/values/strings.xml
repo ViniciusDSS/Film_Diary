@@ -43,4 +43,14 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+        <string-array name="dia_semana">
+            <item>Domingo</item>
+            <item>Segunda</item>
+            <item>Terça-feira</item>
+            <item>Quarta-feira</item>
+            <item>Quinta-feira</item>
+            <item>Sexta-feira</item>
+            <item>Sábado</item>
+        </string-array>
+
 </resources>
